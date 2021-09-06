@@ -1,0 +1,96 @@
+.container {
+  margin: 4rem;
+}
+.main-title {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ce1212;
+}
+.row {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 20px;
+  justify-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  padding-bottom: 0;
+}
+.buttons button {
+  width: 90px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: 0;
+  outline: 0;
+  color: #ce1212;
+  border: 2px solid #ce1212;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.buttons button:hover {
+  background-color: #ce1212dc;
+  color: #fff;
+}
+.buttons .disabled {
+  border: 2px solid #9c9c9c;
+  color: #9c9c9c;
+  cursor: not-allowed;
+}
+.buttons .disabled:hover {
+  background-color: transparent;
+  color: #9c9c9c;
+}
+.notFoundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 83.8vh;
+}
+
+.dark .main-title {
+  color: #fff;
+}
+.dark .buttons button {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.dark .buttons button:hover {
+  color: #111;
+  background-color: #fff;
+}
+.dark .buttons .disabled {
+  border: 2px solid #a1a1a1;
+  color: #a1a1a1;
+}
+.dark .buttons .disabled:hover {
+  color: #a1a1a1;
+  background-color: transparent;
+}
+
+@media (max-width: 1250px) {
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 950px) {
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    margin: 2rem 1.5rem;
+  }
+  .row {
+    margin-top: 2rem;
+  }
+}

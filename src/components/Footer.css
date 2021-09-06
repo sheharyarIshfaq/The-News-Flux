@@ -1,0 +1,12 @@
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ce1212;
+  color: #fff;
+}
+.dark {
+  background-color: #161616;
+}
+footer p {
+  letter-spacing: 1px;
+}
