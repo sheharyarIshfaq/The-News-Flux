@@ -26,7 +26,7 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Banner bannerImage={banner} />
-          <NewsContainer />
+          <NewsContainer category={"general"} />
         </Route>
         <Route path="/science" exact>
           <NewsContainer category={"science"} />

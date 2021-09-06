@@ -7,7 +7,6 @@ import Spinner from "./UI/Spinner";
 import { DarkModeContext } from "../context/darkMode-context";
 
 const API_KEY = "b64ade79be004ad895baf40066ce69b9";
-// const API_KEY = "b64ade79be004ad895baf40066ce69b";
 
 const NewsContainer = (props) => {
   const darkModeCtx = useContext(DarkModeContext);
@@ -38,7 +37,7 @@ const NewsContainer = (props) => {
     const fetchNews = async () => {
       setIsLoading(true);
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}&pageSize=8&page=${page}`
+        `https://newsapi.org/v2/top-headlines?country=us&category=${props.category}&apiKey=${API_KEY}&pageSize=8&page=${page}`
       );
       const data = await response.json();
 
