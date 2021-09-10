@@ -62,7 +62,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/sheharyarIshfaq/The-News-Flux.gitt
+   git clone https://github.com/sheharyarIshfaq/The-News-Flux.git
    ```
 1. Install NPM packages
    ```sh
