@@ -8,7 +8,7 @@
   <h3 align="center">The News Flux</h3>
 
   <p align="center">
-    A News Web App build with React js and news API. It fetches top headlines category wise and display them on the frontend
+    A News Web App build with React js and news API. It fetches top headlines category-wise and displays them on the frontend
     <br />
   </p>
 </p>
@@ -40,13 +40,13 @@
 
 ![Main Page](./readme-images/main-page.png)
 
-The News Flux is a Web Application built using React js and an APi from news api. It fetches the top headlines of different category and display them as a induvidual news item with a News source, Date of the news, Title, Description, Image realted to that News, and a read more button which direct the user to a different website to read more about that particular news. It has different categories in the Navbar, clicking on them shows user news related to that category. It also has a button to change the mode to Dark and Light Mode.
+The News Flux is a Web Application built using React js and an API from news API. It fetches the top headlines of different categories and displays them as individual news items with a News source, Date of the news, Title, Description, Image related to that News, and a read more button which directs the user to a different website to read more about that particular news. It has different categories in the Navbar, clicking on them shows user news related to that category. It also has a button to change the mode to Dark or Light Mode.
 
-I have built this website by using different features of React js including React Hooks, React Context, React Router. React Hooks such as useState, useEffect. Create Context was used to make a context of dark mode and it has used in the whole component to manage the dark mode state. React Router was used to create routes for different news categories.
+I have built this website by using different features of React js including React Hooks, React Context, and React Router. React Hooks such as useState, useEffect. Create Context was used to make a context of dark mode and it has been used in the whole component to manage the dark mode state. React Router was used to create routes for different news categories.
 
 ### Built With
 
-This projects was built using React js, react router, custom css.
+This project was built using React js, react router, and custom css.
 
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
